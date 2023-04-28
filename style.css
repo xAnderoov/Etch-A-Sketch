@@ -21,13 +21,18 @@ body {
   background-color: bisque;
 }
 
+.button {
+  padding: 5px 10px;
+
+  font-size: 18px;
+}
+
 main {
   flex-grow: 1;
 }
 
 .square {
   display: flex;
-  gap: 1px;
   flex-direction: column;
   width: 960px;
   height: 960px;
@@ -37,7 +42,6 @@ main {
 .row {
   flex-grow: 1;
   display: flex;
-  gap: 1px;
 }
 
 .cell {
